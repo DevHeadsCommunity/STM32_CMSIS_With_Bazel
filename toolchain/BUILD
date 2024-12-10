@@ -51,5 +51,5 @@ cc_toolchain(
     strip_files = ":strip_files",
     objcopy_files = ":objcopy_files",  # Add the objcopy_files
     dwp_files = ":dwp_files",  # Add the dwp_files
-    toolchain_config = ":toolchain_config",  # Add the toolchain_config
+    toolchain_config = ":arm_toolchain_config",  # Add the toolchain_config
 )
