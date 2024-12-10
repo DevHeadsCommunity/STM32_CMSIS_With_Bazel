@@ -1,3 +1,4 @@
-workspace(name = "stm32_firmware_project")
+workspace(name = "baremetal_bazel")
 
-load("//toolchain:gcc_toolchain.bzl", "arm_none_toolchain")
+# Register the Cortex-M4 bare-metal toolchain
+register_toolchains("//toolchain:cortex_m4_toolchain_from_linux_x86_64")
